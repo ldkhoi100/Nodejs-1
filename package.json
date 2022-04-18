@@ -1,0 +1,25 @@
+{
+  "name": "notes-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "nodemon web-server/src/app.js -e js,css,hbs,html"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "chalk": "^2.4.1",
+    "connect-livereload": "^0.6.1",
+    "express": "^4.17.3",
+    "hbs": "^4.0.1",
+    "livereload": "^0.9.3",
+    "nodemon": "^1.18.5",
+    "reload": "^3.2.0",
+    "request": "^2.88.0",
+    "validator": "^10.8.0",
+    "yargs": "^12.0.2"
+  }
+}
